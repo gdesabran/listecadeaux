@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { oswald, inter } from "./fonts";
+import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -15,6 +16,13 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${oswald.variable} ${inter.variable} antialiased`}>
+        <div className="text-center lg:text-6xl text-4xl py-6 font-semibold bg-blue-700">
+          <Link href="/">
+            <h1 className="font-title uppercase italic text-yellow-300">
+              Apps de Guillaume de Sabran
+            </h1>
+          </Link>
+        </div>
         {children}
       </body>
     </html>
