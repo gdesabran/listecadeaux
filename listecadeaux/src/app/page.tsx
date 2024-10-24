@@ -15,7 +15,7 @@ function CarteProjet({ children }: { children: ReactNode }) {
 export default function Accueil() {
   return (
     <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-      <main className="grid grid-flow-row grid-cols-3 gap-8 my-20">
+      <main className="grid grid-flow-row sm:grid-cols-3 gid-cols-1 gap-8 my-20">
         <CarteProjet>Ma Liste de Cadeaux</CarteProjet>
       </main>
     </div>

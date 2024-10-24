@@ -19,7 +19,7 @@ export default function RootLayout({
         <div className="text-center lg:text-6xl text-4xl py-6 font-semibold bg-blue-700">
           <Link href="/">
             <h1 className="font-title uppercase italic text-yellow-300">
-              Apps de Guillaume de Sabran
+              Apps de Guillaume
             </h1>
           </Link>
         </div>
