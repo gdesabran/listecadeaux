@@ -14,7 +14,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${oswald.variable} ${oswald.variable} antialiased`}>
+      <body className={`${oswald.variable} ${inter.variable} antialiased`}>
         {children}
       </body>
     </html>
