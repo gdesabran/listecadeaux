@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { ReactNode } from "react";
 
-export function CarteProjet({ children }: { children: ReactNode }) {
+function CarteProjet({ children }: { children: ReactNode }) {
   return (
     <Link
       href="/cadeaux"

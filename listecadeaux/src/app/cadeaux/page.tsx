@@ -1,4 +1,4 @@
-export default function Cadeaux() {
+export default function Page() {
   return (
     <div className="">
       <div className="text-center text-2xl py-6 bg-orange-50">
