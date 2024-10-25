@@ -1,6 +1,5 @@
 "use client";
 
-import { kv } from "@vercel/kv";
 import { useState } from "react";
 import { PlusCircleIcon } from "@heroicons/react/24/outline";
 
