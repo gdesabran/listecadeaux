@@ -15,10 +15,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${oswald.variable} ${inter.variable} antialiased`}>
-        <div className="text-center lg:text-6xl text-4xl py-6 font-semibold bg-blue-700">
+      <body
+        className={`${oswald.variable} ${inter.variable} antialiased bg-gray-50`}
+      >
+        <div className="text-center lg:text-6xl text-4xl py-6 font-semibold bg-indigo-600">
           <Link href="/">
-            <h1 className="font-title uppercase italic text-yellow-300">
+            <h1 className="font-title lg:text-6xl sm:text-4xl text-2xl uppercase italic text-yellow-300">
               Apps de Guillaume
             </h1>
           </Link>
